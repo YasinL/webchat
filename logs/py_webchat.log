@@ -1,1 +1,5 @@
 [2018-11-13 14:39:16,513 INFO 24924 Log.py 25] - C:/Users/admin/Desktop/python/webchat/logs/py_webchat.log
+[2018-11-13 16:03:26,304 ERROR 27148 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
+[2018-11-13 16:03:29,528 ERROR 20852 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
+[2018-11-13 16:04:22,455 ERROR 26900 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
+[2018-11-13 16:04:58,206 ERROR 27440 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
