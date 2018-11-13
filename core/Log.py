@@ -22,6 +22,9 @@ logger = logging.getLogger()   #日志
 
 
 if __name__ == '__main__':
+
     logger.info(logfilename)
     print(logfilename)
-    print(logfilename)
+
+
+
