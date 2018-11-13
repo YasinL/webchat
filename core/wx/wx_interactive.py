@@ -47,6 +47,13 @@ def weixin_main(request):
 import xml.etree.ElementTree as ET
 from lxml import etree
 # import xml.etree as etree
+def wx_msg(msg_type):
+    wx_dbutil = dbutil().wx_msg(msg_type)
+    wx_msg = dict(json.loads(wx_dbutil))
+    content = wx_msg.get("wx_msg_value")
+    return  content
+
+
 def autoreply(request):
     try:
         print(request)
@@ -60,11 +67,12 @@ def autoreply(request):
         FromUserName = xmlData.find('FromUserName').text
         CreateTime = xmlData.find('CreateTime').text
         # MsgType = xmlData.find('MsgType').text
-        MsgId = xmlData.find('MsgId').text
+        # MsgId = xmlData.find('MsgId').text
         toUser = FromUserName
         fromUser = ToUserName
         if msg_type == 'text':
-            content = "您好,欢迎来到Python大学习!希望我们可以一起进步!"
+            # content = "您好,欢迎来到Python大学习!希望我们可以一起进步!"
+            content = wx_msg(msg_type)
             replyMsg = TextMsg(toUser, fromUser, content)
             print ("成功了!!!!!!!!!!!!!!!!!!!")
             print (replyMsg)
@@ -73,9 +81,7 @@ def autoreply(request):
             event = xmlData.find('Event').text
             if event == 'subscribe':
                 # content = "欢迎欢迎 热烈欢迎"
-                wx_dbutil = dbutil().wx_msg(msg_type)
-                wx_msg = dict(json.loads(wx_dbutil))
-                content = wx_msg.get("wx_msg_value")
+                content = wx_msg(msg_type)
                 replyMsg = TextMsg(toUser, fromUser, content)
                 return replyMsg.send()
 
