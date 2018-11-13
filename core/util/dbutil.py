@@ -49,16 +49,18 @@ class dbutil():
 
     def wx_msg(self,wx_msg_type):
         try:
-            tb_secret = t_tb_secret.objects.filter(wx_appname__exact=wx_msg_type).values()
-            for tb_values in tb_secret:
-             tb_secret_dict = dict(wx_appname=tb_values['wx_appname'], wx_appid=tb_values['wx_appid'],
-                                          wx_secret=tb_values['wx_secret'], wx_token=tb_values['wx_token'])
-             tb_secret_dict = tb_secret_dict
+            wx_msg = t_wx_msg.objects.filter(wx_appname__exact=wx_msg_type).values()
+            for wx_msg_values in wx_msg:
+                wx_msg_dict = dict(wx_appname=wx_msg_values['wx_appname'], wx_appid=wx_msg_values['wx_appid'],
+                                          wx_secret=wx_msg_values['wx_secret'], wx_token=wx_msg_values['wx_token'])
+                wx_msg_dict = wx_msg_dict
         except BaseException as e:
             logger.error(e)
-            tb_secret_dict = 0
+            wx_msg_dict = 0
 
-        return json.dumps(tb_secret_dict)
+        return json.dumps(wx_msg_dict)
+
+
 
 
 if __name__ == '__main__':
