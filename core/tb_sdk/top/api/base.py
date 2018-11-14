@@ -12,7 +12,8 @@ import urllib
 import time
 import hashlib
 import json
-import core.tb_sdk.top as top
+from  core.tb_sdk import top
+# import core.tb_sdk.top as top
 import itertools
 import mimetypes
 
@@ -51,19 +52,19 @@ def sign(secret, parameters):
     # 如果parameters 是字典类的话
     if hasattr(parameters, "items"):
         keys = parameters.keys()
-        keys.sort()
+        keys = sorted(keys)
         
         parameters = "%s%s%s" % (secret,
             str().join('%s%s' % (key, parameters[key]) for key in keys),
             secret)
-    sign = hashlib.md5(parameters).hexdigest().upper()
+    sign = hashlib.md5(parameters.encode("utf8")).hexdigest().upper()
     return sign
 
 def mixStr(pstr):
     if(isinstance(pstr, str)):
         return pstr
-    elif(isinstance(pstr, unicode)):
-        return pstr.encode('utf-8')
+    elif(isinstance(pstr, bytes)):
+        return pstr.decode('utf-8')
     else:
         return str(pstr)
     
@@ -151,13 +152,16 @@ class TopException(Exception):
     
     def __str__(self, *args, **kwargs):
         sb = "errorcode=" + mixStr(self.errorcode) +\
-            " message=" + mixStr(self.message) +\
-            " subcode=" + mixStr(self.subcode) +\
-            " submsg=" + mixStr(self.submsg) +\
-            " application_host=" + mixStr(self.application_host) +\
+            " message=" + mixStr(self.message) + \
+             " subcode=" + mixStr(self.subcode) + \
+             " submsg=" + mixStr(self.submsg) + \
+             " application_host=" + mixStr(self.application_host) +\
             " service_host=" + mixStr(self.service_host)
         return sb
-       
+
+    # " subcode=" + mixStr(self.subcode) + \
+    # " submsg=" + mixStr(self.submsg) + \
+
 class RequestException(Exception):
     #===========================================================================
     # 请求连接异常类
@@ -215,15 +219,15 @@ class RestApi(object):
         # 获取response结果
         #=======================================================================
         if(self.__port == 443):
-            connection = httplib.HTTPSConnection(self.__domain, self.__port, None, None, False, timeout)
+            connection = httplib.HTTPSConnection(self.__domain, self.__port,None,False, timeout)
         else:
-            connection = httplib.HTTPConnection(self.__domain, self.__port, False, timeout)
+            connection = httplib.HTTPConnection(self.__domain, self.__port, timeout)
         sys_parameters = {
             P_FORMAT: 'json',
             P_APPKEY: self.__app_key,
             P_SIGN_METHOD: "md5",
             P_VERSION: '2.0',
-            P_TIMESTAMP: str(long(time.time() * 1000)),
+            P_TIMESTAMP: str(int(time.time() * 1000)),
             P_PARTNER_ID: SYSTEM_GENERATE_VERSION,
             P_API: self.getapiname(),
         }
@@ -247,25 +251,28 @@ class RestApi(object):
             body = str(form)
             header['Content-type'] = form.get_content_type()
         else:
-            body = urllib.urlencode(application_parameter)
-            
-        url = N_REST + "?" + urllib.urlencode(sys_parameters)
+            body = urllib.parse.urlencode(application_parameter)
+
+        print(urllib.parse.urlencode(sys_parameters))
+        url = N_REST + "?" + urllib.parse.urlencode(sys_parameters)
+        print(url)
         connection.request(self.__httpmethod, url, body=body, headers=header)
+        print(header)
         response = connection.getresponse();
         if response.status is not 200:
             raise RequestException('invalid http status ' + str(response.status) + ',detail body:' + response.read())
         result = response.read()
         jsonobj = json.loads(result)
-        if jsonobj.has_key("error_response"):
+        if "error_response" in jsonobj:
             error = TopException()
-            if jsonobj["error_response"].has_key(P_CODE) :
-                error.errorcode = jsonobj["error_response"][P_CODE]
-            if jsonobj["error_response"].has_key(P_MSG) :
-                error.message = jsonobj["error_response"][P_MSG]
-            if jsonobj["error_response"].has_key(P_SUB_CODE) :
-                error.subcode = jsonobj["error_response"][P_SUB_CODE]
-            if jsonobj["error_response"].has_key(P_SUB_MSG) :
-                error.submsg = jsonobj["error_response"][P_SUB_MSG]
+            # if jsonobj["error_response"].has_key(P_CODE) :
+            error.errorcode = jsonobj["error_response"][P_CODE]
+            # if jsonobj["error_response"].has_key(P_MSG) :
+            error.message = jsonobj["error_response"][P_MSG]
+            # if jsonobj["error_response"].has_key(P_SUB_CODE) :
+            error.subcode = jsonobj["error_response"][P_SUB_CODE]
+            # if jsonobj["error_response"].has_key(P_SUB_MSG) :
+            error.submsg = jsonobj["error_response"][P_SUB_MSG]
             error.application_host = response.getheader("Application-Host", "")
             error.service_host = response.getheader("Location-Host", "")
             raise error
@@ -274,7 +281,7 @@ class RestApi(object):
     
     def getApplicationParameters(self):
         application_parameter = {}
-        for key, value in self.__dict__.iteritems():
+        for key, value in self.__dict__.items():
             if not key.startswith("__") and not key in self.getMultipartParas() and not key.startswith("_RestApi__") and value is not None :
                 if(key.startswith("_")):
                     application_parameter[key[1:]] = value
@@ -282,7 +289,7 @@ class RestApi(object):
                     application_parameter[key] = value
         #查询翻译字典来规避一些关键字属性
         translate_parameter = self.getTranslateParas()
-        for key, value in application_parameter.iteritems():
+        for key, value in application_parameter.items():
             if key in translate_parameter:
                 application_parameter[translate_parameter[key]] = application_parameter[key]
                 del application_parameter[key]

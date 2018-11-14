@@ -34,3 +34,5 @@ from core.tb_sdk.top.api.rest.FilesGetRequest import FilesGetRequest
 from core.tb_sdk.top.api.rest.KfcKeywordSearchRequest import KfcKeywordSearchRequest
 from core.tb_sdk.top.api.rest.TbkShopGetRequest import TbkShopGetRequest
 from core.tb_sdk.top.api.rest.OpenuidGetBymixnickRequest import OpenuidGetBymixnickRequest
+from core.tb_sdk.top.api.rest.TbkSpreadGetRequest import TbkSpreadGetRequest
+

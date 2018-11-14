@@ -4,3 +4,13 @@
 [2018-11-13 16:04:22,455 ERROR 26900 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
 [2018-11-13 16:04:58,206 ERROR 27440 dbutil.py 58] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, wx_msg_keyword, wx_msg_type, wx_msg_value
 [2018-11-13 16:16:45,713 WARNING 27468 base.py 152] - Not Found: /favicon.ico
+[2018-11-14 15:31:29,279 ERROR 41352 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:31:58,252 ERROR 22996 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:32:24,278 ERROR 41892 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:32:32,424 ERROR 39956 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:32:58,798 ERROR 41180 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:33:12,727 ERROR 13300 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:33:25,652 ERROR 37340 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:33:47,524 ERROR 41072 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:34:37,984 ERROR 36928 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 15:35:45,888 ERROR 41200 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token

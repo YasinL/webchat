@@ -33,18 +33,7 @@ class dbutil():
         return json.dumps(wx_secret_dict)
 
 
-    def tb_secret(self,tb_appname):
-        try:
-            tb_secret = t_tb_secret.objects.filter(wx_appname__exact=tb_appname).values()
-            for tb_values in tb_secret:
-             tb_secret_dict = dict(tb_appname=tb_values['tb_appname'], tb_appid=tb_values['tb_appid'],
-                                   tb_secret=tb_values['tb_secret'], tb_token=tb_values['tb_token'])
-             tb_secret_dict = tb_secret_dict
-        except BaseException as e:
-            logger.error(e)
-            tb_secret_dict = 0
 
-        return json.dumps(tb_secret_dict)
 
 
     def wx_msg(self,wx_msg_type):
@@ -61,13 +50,32 @@ class dbutil():
         return json.dumps(wx_msg_dict)
 
 
+class tb_app_secret():
+    def __init__(self,tb_appname):
+        self.tb_appname = tb_appname
 
+    def tb_secret(self,tb_field):
+        try:
+            tb_secret = t_tb_secret.objects.filter(tb_appname__exact=self.tb_appname).values()
+            for tb_values in tb_secret:
+             tb_secret_dict = dict(tb_appname=tb_values['tb_appname'], tb_appid=tb_values['tb_appid'],
+                                   tb_secret=tb_values['tb_secret'], tb_token=tb_values['tb_token'])
+             tb_secret_dict = tb_secret_dict
+        except BaseException as e:
+            logger.error(e)
+            tb_secret_dict = 0
+
+        secret = tb_secret_dict.get(tb_field)
+
+        return secret
 
 if __name__ == '__main__':
-    wx_msg_type = 'text'
-    wx_dbutil  = dbutil()
-    test = wx_dbutil.wx_msg(wx_msg_type)
-    test1 = dict(json.loads(test))
-    print(test1.get("wx_msg_value"))
+    # wx_msg_type = 'text'
+    # wx_dbutil  = dbutil()
+    # test = wx_dbutil.wx_msg(wx_msg_type)
+    # test1 = dict(json.loads(test))
+    # print(test1.get("wx_msg_value"))
+    tb_dbutil = tb_app_secret("tk_webchat").tb_secret("tb_appid")
+    print(tb_dbutil)
 
 
