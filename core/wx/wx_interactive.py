@@ -9,7 +9,8 @@ from django.utils.encoding import smart_str
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 from core.util.dbutil import dbutil
-
+from  core.tb.tb_change_tbkey import change_Key
+from  core.Log import logger
 # django默认开启csrf防护，这里使用@csrf_exempt去掉防护
 @csrf_exempt
 def weixin_main(request):
@@ -72,10 +73,16 @@ def autoreply(request):
         fromUser = ToUserName
         if msg_type == 'text':
             # content = "您好,欢迎来到Python大学习!希望我们可以一起进步!"
-            content = wx_msg(msg_type)
-            replyMsg = TextMsg(toUser, fromUser, content)
-            print ("成功了!!!!!!!!!!!!!!!!!!!")
-            print (replyMsg)
+            if change_Key(msg_type) == 0:
+                content = wx_msg(msg_type)
+                replyMsg = TextMsg(toUser, fromUser, content)
+                print ("卡券调用失败")
+                logger.error("卡券调用失败")
+            else:
+                content = change_Key(msg_type)
+                replyMsg = TextMsg(toUser, fromUser, content)
+                logger.info("返回卡券成功！！")
+
             return replyMsg.send()
         elif msg_type == 'event':
             event = xmlData.find('Event').text
