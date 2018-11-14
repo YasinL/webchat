@@ -85,6 +85,18 @@ WSGI_APPLICATION = 'webchat.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': '##',
+#         'USER':'##',
+#         'PASSWORD':'##',
+#         'HOST':'##',
+#         'PORT':'##',
+#     }
+# }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
