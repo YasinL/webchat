@@ -67,6 +67,7 @@ def autoreply(request):
         ToUserName = xmlData.find('ToUserName').text
         FromUserName = xmlData.find('FromUserName').text
         CreateTime = xmlData.find('CreateTime').text
+        wx_res_Content = xmlData.find('Content').text
         # MsgType = xmlData.find('MsgType').text
         # MsgId = xmlData.find('MsgId').text
         toUser = FromUserName
@@ -79,7 +80,7 @@ def autoreply(request):
                 print ("卡券调用失败")
                 logger.error("卡券调用失败")
             else:
-                content = change_Key(msg_type)
+                content = change_Key(wx_res_Content)
                 replyMsg = TextMsg(toUser, fromUser, content)
                 logger.info("返回卡券成功！！")
 

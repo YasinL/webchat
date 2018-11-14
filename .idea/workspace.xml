@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25052fba-cb99-4a15-a968-84dba3d36913" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/webchat.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/tb_change_tbkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/tb_change_tbkey.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/wx/wx_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/wx/wx_interactive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat/settings.py" afterDir="false" />
     </list>
@@ -33,11 +33,11 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="tb_search_shop_bak.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_bak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="340">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#100#126#0" expanded="true" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="tb_change_tbkey.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="920">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#70#96#0" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
       <file leaf-file-name="test3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/tb/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="440">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="e#70#96#0" expanded="true" />
               </folding>
@@ -73,7 +73,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webchat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="550">
               <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="5500">
               <caret line="282" selection-start-line="282" selection-end-line="282" />
               <folding>
                 <element signature="e#143#156#0" expanded="true" />
@@ -115,7 +115,7 @@
       <file leaf-file-name="dbutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="1340">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="e#70#83#0" expanded="true" />
@@ -127,8 +127,8 @@
       <file leaf-file-name="wx_interactive.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/wx/wx_interactive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="240">
+              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
               <folding>
                 <element signature="e#71#85#0" expanded="true" />
               </folding>
@@ -595,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542188032723</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tk_conpon">
+      <created>1542190080306</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542190080306</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,9 +613,9 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49856734" weight="0.30252102" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25501433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.258596" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="5" />
@@ -616,12 +623,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3627451" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
@@ -1188,6 +1195,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webchat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/rest/HttpdnsGetRequest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1423,9 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#68#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,9 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1460,16 +1468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Log.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/util/tb_db_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#70#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,8 +1494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="440">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="e#70#96#0" expanded="true" />
           </folding>
@@ -1502,7 +1504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="5500">
           <caret line="282" selection-start-line="282" selection-end-line="282" />
           <folding>
             <element signature="e#143#156#0" expanded="true" />
@@ -1519,7 +1521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="1340">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="e#70#83#0" expanded="true" />
@@ -1531,15 +1533,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#70#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_bak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
+        <state relative-caret-position="340">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#100#126#0" expanded="true" />
@@ -1549,8 +1548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="920">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="e#70#96#0" expanded="true" />
           </folding>
@@ -1559,8 +1558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/wx/wx_interactive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="240">
+          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
           <folding>
             <element signature="e#71#85#0" expanded="true" />
           </folding>
@@ -1569,7 +1568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webchat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="550">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
