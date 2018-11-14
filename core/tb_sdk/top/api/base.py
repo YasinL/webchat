@@ -253,12 +253,12 @@ class RestApi(object):
         else:
             body = urllib.parse.urlencode(application_parameter)
 
-        print(urllib.parse.urlencode(sys_parameters))
+        # print(urllib.parse.urlencode(sys_parameters))
         url = N_REST + "?" + urllib.parse.urlencode(sys_parameters)
-        print(url)
+        # print(url)
         connection.request(self.__httpmethod, url, body=body, headers=header)
-        print(header)
-        print(body)
+        # print(header)
+        # print(body)
         response = connection.getresponse();
         if response.status is not 200:
             raise RequestException('invalid http status ' + str(response.status) + ',detail body:' + response.read())
