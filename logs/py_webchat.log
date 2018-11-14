@@ -14,3 +14,4 @@
 [2018-11-14 15:33:47,524 ERROR 41072 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
 [2018-11-14 15:34:37,984 ERROR 36928 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
 [2018-11-14 15:35:45,888 ERROR 41200 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
+[2018-11-14 16:25:50,764 ERROR 43032 dbutil.py 65] - (2003, "Can't connect to MySQL server on '118.89.18.234' (timed out)")

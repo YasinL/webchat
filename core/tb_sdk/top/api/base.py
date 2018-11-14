@@ -258,6 +258,7 @@ class RestApi(object):
         print(url)
         connection.request(self.__httpmethod, url, body=body, headers=header)
         print(header)
+        print(body)
         response = connection.getresponse();
         if response.status is not 200:
             raise RequestException('invalid http status ' + str(response.status) + ',detail body:' + response.read())
