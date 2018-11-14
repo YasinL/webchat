@@ -82,16 +82,6 @@ WSGI_APPLICATION = 'webchat.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'webchat',
-        'USER':'webchat',
-        'PASSWORD':'topwalk@@',
-        'HOST':'118.89.18.234',
-        'PORT':'3310',
-    }
-}
 
 
 
