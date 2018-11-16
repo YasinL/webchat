@@ -15,3 +15,44 @@
 [2018-11-14 15:34:37,984 ERROR 36928 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
 [2018-11-14 15:35:45,888 ERROR 41200 dbutil.py 44] - Cannot resolve keyword 'wx_appname' into field. Choices are: id, tb_appid, tb_appname, tb_secret, tb_token
 [2018-11-14 16:25:50,764 ERROR 43032 dbutil.py 65] - (2003, "Can't connect to MySQL server on '118.89.18.234' (timed out)")
+[2018-11-16 17:44:56,462 WARNING 58504 base.py 152] - Not Found: /index
+[2018-11-16 17:44:56,717 WARNING 58504 base.py 152] - Not Found: /favicon.ico
+[2018-11-16 17:53:17,960 ERROR 60200 exception.py 135] - Internal Server Error: /index
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shop_sel_lib.py", line 17, in shop_sel_lib_list
+    return render(request,"index.html",{'shoplist':shoplist})
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '["category"]' from 'shoplist["category"]'
+[2018-11-16 17:53:19,011 WARNING 60200 base.py 152] - Not Found: /favicon.ico
+[2018-11-16 17:58:27,289 ERROR 55124 dbutil.py 65] - settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.

@@ -242,15 +242,18 @@
  	<img src="../static/images/bm.png" width="24"/>测试
  </div>
  <ul class="yule">
+     {% for shop in shoplist %}
 		<li>
 			<a href="news.html">
-				<img src="../static/images/test.jpg">
+				<img src={{ shop.pict_url }}>
 				<div style="width: 70%; float: left;">
-				<h3 class="title">测试测试测试测试测试测试测试测试测试</h3>
+
+				<h3 class="title">{{ shop.title }}</h3>
                     <table class="intro">
+
                         <tr>
-                            <td style="text-align: left;width: 30%">原价￥100</td>
-                            <td style="text-align: left;width: 70%">优惠价￥50</td>
+                            <td style="text-align: left;width: 30%">原价￥{{ shop.zk_final_price }}</td>
+                            <td style="text-align: left;width: 70%">优惠价{{ shop.zk_final_price }}</td>
                         </tr>
                         <tr>
                             <td>优惠价￥50</td>
@@ -259,23 +262,24 @@
 				</div>
 			</a>
 		</li>
-		<li>
-			<a href="news.html">
-				<img src="../static/images/test.jpg">
-				<div style="width: 70%; float: left;">
-				<h3 class="title">测试测试测试测试测试测试测试测试测试</h3>
-                    <table class="intro">
-                        <tr>
-                            <td style="text-align: left;width: 30%">原价￥100</td>
-                            <td style="text-align: left;width: 70%">优惠价￥50</td>
-                        </tr>
-                        <tr>
-                            <td>优惠价￥50</td>
-                        </tr>
-                    </table>
-				</div>
-			</a>
-		</li>
+     {% endfor %}
+		<!--<li>-->
+			<!--<a href="news.html">-->
+				<!--<img src="../static/images/test.jpg">-->
+				<!--<div style="width: 70%; float: left;">-->
+				<!--<h3 class="title">测试测试测试测试测试测试测试测试测试</h3>-->
+                    <!--<table class="intro">-->
+                        <!--<tr>-->
+                            <!--<td style="text-align: left;width: 30%">原价￥100</td>-->
+                            <!--<td style="text-align: left;width: 70%">优惠价￥50</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>优惠价￥50</td>-->
+                        <!--</tr>-->
+                    <!--</table>-->
+				<!--</div>-->
+			<!--</a>-->
+		<!--</li>-->
 
  </ul>
  <!--底部-->
