@@ -264,6 +264,7 @@ class RestApi(object):
             raise RequestException('invalid http status ' + str(response.status) + ',detail body:' + response.read())
         result = response.read()
         jsonobj = json.loads(result)
+        # print(result)
         if "error_response" in jsonobj:
             error = TopException()
             # if jsonobj["error_response"].has_key(P_CODE) :
