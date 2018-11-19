@@ -5,7 +5,7 @@ __Author__ = "Yasin Li"
 import core.tb_sdk.top.api
 from  core.tb_sdk import top
 from  core.util.dbutil import tb_app_secret
-from core.tb.tb_search_shop import search_Shop
+from core.tb.tb_search_shop_wl import search_Shop
 from  core.Log import logger
 
 tb_appid = tb_app_secret("tk_webchat").tb_secret("tb_appid")

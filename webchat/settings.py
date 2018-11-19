@@ -84,7 +84,6 @@ WSGI_APPLICATION = 'webchat.wsgi.application'
 
 
 
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',

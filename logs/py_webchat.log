@@ -56,3 +56,64 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '["category"]' from 'shoplist["category"]'
 [2018-11-16 17:53:19,011 WARNING 60200 base.py 152] - Not Found: /favicon.ico
 [2018-11-16 17:58:27,289 ERROR 55124 dbutil.py 65] - settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2018-11-17 18:45:25,226 WARNING 1132 base.py 152] - Not Found: /news.html
+[2018-11-17 18:45:25,619 WARNING 1132 base.py 152] - Not Found: /favicon.ico
+[2018-11-17 19:14:28,293 WARNING 5240 base.py 152] - Not Found: /specialprice.html
+[2018-11-17 19:14:28,440 WARNING 5240 base.py 152] - Not Found: /favicon.ico
+[2018-11-17 19:32:29,769 ERROR 5448 tb_search_shop.py 53] - 'sub_code'
+[2018-11-17 19:32:48,933 ERROR 5744 tb_search_shop.py 53] - 'sub_code'
+[2018-11-17 19:35:11,994 ERROR 9180 tb_search_shop.py 53] - 'sub_code'
+[2018-11-17 19:35:51,935 ERROR 8796 tb_search_shop.py 53] - 'sub_code'
+[2018-11-17 22:10:37,965 ERROR 6384 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.10.67 service_host=top011011010067.na61
+[2018-11-17 22:12:09,332 ERROR 5152 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.20.221.28 service_host=top011020221028.center.na61
+[2018-11-17 22:12:18,025 ERROR 4404 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.88.148 service_host=top011021088148.center.na62
+[2018-11-17 23:06:59,723 ERROR 1240 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.15.254.195 service_host=top011015254195.center.na62
+[2018-11-17 23:07:07,356 ERROR 6296 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.75.211 service_host=top011008075211.na61
+[2018-11-17 23:07:24,536 ERROR 6660 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.20.36 service_host=top011011020036.na61
+[2018-11-17 23:07:35,934 ERROR 6500 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.5.14 service_host=top011021005014.center.na61
+[2018-11-17 23:08:02,169 ERROR 3708 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.175.129.116 service_host=top011175129116.na62
+[2018-11-17 23:08:09,316 ERROR 5376 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.15.241.197 service_host=top011015241197.center.na62
+[2018-11-17 23:09:30,311 ERROR 6884 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.10.250.193 service_host=top011010250193.na61
+[2018-11-17 23:09:36,306 ERROR 5704 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.1.253.58 service_host=top011001253058.center.na62
+[2018-11-17 23:10:01,823 ERROR 1932 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.186.134.11 service_host=top011186134011.na61
+[2018-11-17 23:10:09,230 ERROR 6428 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.26.20 service_host=top011021026020.center.na62
+[2018-11-17 23:12:58,144 ERROR 7224 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.131.48.67 service_host=top011131048067.na62
+[2018-11-17 23:13:05,568 ERROR 7440 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.13.115 service_host=top011011013115.na61
+[2018-11-17 23:13:30,284 ERROR 7792 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.1.70.176 service_host=top011001070176.center.na61
+[2018-11-17 23:14:06,110 ERROR 5704 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.68.41 service_host=top011008068041.na61
+[2018-11-17 23:14:12,203 ERROR 5852 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.82.224 service_host=top011021082224.center.na62
+[2018-11-17 23:14:20,023 ERROR 7872 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.178.105.111 service_host=top011178105111.na62
+[2018-11-17 23:15:11,408 ERROR 2016 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.75.207 service_host=top011021075207.center.na62
+[2018-11-17 23:15:18,364 ERROR 7320 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.20.221.20 service_host=top011020221020.center.na61
+[2018-11-17 23:15:33,983 ERROR 7864 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.64.207 service_host=top011011064207.na62
+[2018-11-17 23:15:40,558 ERROR 8020 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.1.225.92 service_host=top011001225092.center.na62
+[2018-11-17 23:16:10,063 ERROR 1932 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.184.77.108 service_host=top011184077108.na62
+[2018-11-17 23:16:35,163 ERROR 7540 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.130.55 service_host=top011011130055.na62
+[2018-11-17 23:16:41,236 ERROR 7384 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.182.153.153 service_host=top011182153153.na62
+[2018-11-17 23:16:47,347 ERROR 4844 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.10.226.92 service_host=top011010226092.na61
+[2018-11-17 23:16:53,479 ERROR 1584 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.15.89.103 service_host=top011015089103.center.na62
+[2018-11-17 23:16:59,284 ERROR 6148 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.182.57.7 service_host=top011182057007.na62
+[2018-11-17 23:17:44,781 ERROR 6316 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.23.108.119 service_host=top011023108119.center.na61
+[2018-11-17 23:19:13,770 ERROR 4844 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.178.105.111 service_host=top011178105111.na62
+[2018-11-17 23:19:19,200 ERROR 7432 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.20.229.2 service_host=top011020229002.center.na61
+[2018-11-17 23:19:23,832 ERROR 2780 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.136.226 service_host=top011011136226.na62
+[2018-11-17 23:19:29,145 ERROR 7408 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.15.250.13 service_host=top011015250013.center.na62
+[2018-11-17 23:19:38,173 ERROR 7528 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.1.62.39 service_host=top011001062039.center.na61
+[2018-11-17 23:19:41,972 ERROR 7848 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.34.238 service_host=top011008034238.na61
+[2018-11-17 23:19:45,180 ERROR 4880 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.20.248.57 service_host=top011020248057.center.na61
+[2018-11-17 23:19:48,421 ERROR 7308 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.15.156.228 service_host=top011015156228.center.na61
+[2018-11-17 23:19:51,582 ERROR 5952 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.10.235.199 service_host=top011010235199.na61
+[2018-11-17 23:19:54,979 ERROR 7660 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.20.36 service_host=top011011020036.na61
+[2018-11-17 23:19:57,730 ERROR 3520 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.186.134.11 service_host=top011186134011.na61
+[2018-11-17 23:20:00,832 ERROR 4676 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.75.198 service_host=top011008075198.na61
+[2018-11-17 23:20:03,764 ERROR 6028 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.27.250 service_host=top011008027250.na61
+[2018-11-17 23:20:09,502 ERROR 6172 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.21.51.123 service_host=top011021051123.center.na62
+[2018-11-17 23:27:59,843 ERROR 7924 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.1.49.159 service_host=top011001049159.center.na61
+[2018-11-17 23:31:41,628 ERROR 8060 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.24.5 service_host=top011008024005.na61
+[2018-11-18 17:18:26,980 ERROR 15480 dbutil.py 65] - (2003, "Can't connect to MySQL server on '118.89.18.234' ([WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。)")
+[2018-11-18 17:18:41,302 ERROR 14200 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.62.106 service_host=top011011062106.na62
+[2018-11-18 17:18:48,463 ERROR 13336 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.87.19 service_host=top011008087019.na61
+[2018-11-18 17:18:55,145 ERROR 4208 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.11.141.176 service_host=top011011141176.na62
+[2018-11-18 17:42:54,710 ERROR 15560 tb_search_shop.py 57] - errorcode=15 message=Remote service error subcode=50001 submsg=无结果 application_host=11.8.3.46 service_host=top011008003046.na61
+[2018-11-18 20:55:24,017 WARNING 19740 base.py 152] - Not Found: /news.html
+[2018-11-18 20:55:24,125 WARNING 19740 base.py 152] - Not Found: /favicon.ico
