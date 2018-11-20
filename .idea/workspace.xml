@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25052fba-cb99-4a15-a968-84dba3d36913" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/core/tb/tb_search_shop_wl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/viewshop/shoplist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webchat_conpon/migrations/0009_remove_t_tb_shop_commodity_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webchat_conpon/migrations/0010_t_tb_shop_commodity_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webchat_conpon/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/selectionbibrary.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/selectionbibrary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/tb_change_tbkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/tb_change_tbkey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/tb_search_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/tb_search_shop_2018.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/tb_search_shop_bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/tb_search_shop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/tb/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tb/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/viewshop/shoplist.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/viewshop/shoplist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/py_webchat.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/py_webchat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat.zip" beforeDir="false" afterPath="$PROJECT_DIR$/webchat.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchat_conpon/migrations/0008_auto_20181113_1554.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/migrations/0008_auto_20181120_1046.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchat_conpon/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchat_conpon/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/newproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/newproduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchat_conpon/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +25,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/webchat$selectionbibrary.coverage" NAME="selectionbibrary Coverage Results" MODIFIED="1542454040380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
+    <SUITE FILE_PATH="coverage/webchat$shoplist.coverage" NAME="shoplist Coverage Results" MODIFIED="1542682208006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/viewshop" />
     <SUITE FILE_PATH="coverage/webchat$tb_db_util.coverage" NAME="tb_db_util Coverage Results" MODIFIED="1542180969827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/util" />
     <SUITE FILE_PATH="coverage/webchat$tb_search_shop_2018.coverage" NAME="tb_search_shop_2018 Coverage Results" MODIFIED="1542546581401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$test.coverage" NAME="test Coverage Results" MODIFIED="1542465603439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -38,51 +35,47 @@
     <SUITE FILE_PATH="coverage/webchat$tb_search_shop.coverage" NAME="tb_search_shop Coverage Results" MODIFIED="1542548664546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$selectionbibrarylist.coverage" NAME="selectionbibrarylist Coverage Results" MODIFIED="1542452866237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$views.coverage" NAME="views Coverage Results" MODIFIED="1542070369641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webchat_conpon" />
-    <SUITE FILE_PATH="coverage/webchat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542074662617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webchat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542681555125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webchat$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1542455642447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$tb_change_tbkey.coverage" NAME="tb_change_tbkey Coverage Results" MODIFIED="1542189828494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$Log.coverage" NAME="Log Coverage Results" MODIFIED="1542091156139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/webchat$base.coverage" NAME="base Coverage Results" MODIFIED="1542178719024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb_sdk/top/api" />
     <SUITE FILE_PATH="coverage/webchat$dbutil.coverage" NAME="dbutil Coverage Results" MODIFIED="1542181479502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/util" />
+    <SUITE FILE_PATH="coverage/webchat$models.coverage" NAME="models Coverage Results" MODIFIED="1542615021717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webchat_conpon" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/index.html">
+      <file leaf-file-name="tb_search_shop_wl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_wl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2440">
-              <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+            <state relative-caret-position="75">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="278" selection-start-line="278" selection-end-line="278" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#a#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#a#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#143#156#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tb_search_shop_wl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_wl.py">
+      <file leaf-file-name="tb_change_tbkey.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="50" column="31" selection-start-line="50" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tb_search_shop.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="160">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#100#126#0" expanded="true" />
+                <element signature="e#70#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,40 +84,40 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webchat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="208">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tb_change_tbkey.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webchat_conpon/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="329">
+              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoplist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#70#96#0" expanded="true" />
+                <element signature="e#69#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tb_search_shop_2018.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_2018.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
-                <element signature="e#70#96#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,34 +126,30 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1340">
-              <caret line="67" selection-start-line="67" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="43" selection-start-line="43" selection-end-line="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#1;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop_sel_lib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/viewshop/shop_sel_lib.py">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webchat_conpon/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding>
-                <element signature="e#69#78#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoplist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webchat/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="335">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -171,6 +160,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,6 +179,8 @@
       <find>user_type</find>
       <find>coupon_info</find>
       <find>volume</find>
+      <find>dit</find>
+      <find>tit</find>
     </findStrings>
     <replaceStrings>
       <replace>core.tb_sdk.top.api</replace>
@@ -208,8 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkScNewuserOrderSumRequest.py" />
-        <option value="$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkScOptimusMaterialRequest.py" />
         <option value="$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkShopGetRequest.py" />
         <option value="$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkShopRecommendGetRequest.py" />
         <option value="$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkTpwdCreateRequest.py" />
@@ -241,10 +231,7 @@
         <option value="$PROJECT_DIR$/core/wx/wx_interactive.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/core/util/selectionbibrary.py" />
-        <option value="$PROJECT_DIR$/webchat_conpon/views.py" />
-        <option value="$PROJECT_DIR$/webchat/urls.py" />
         <option value="$PROJECT_DIR$/core/viewshop/shop_sel_lib.py" />
-        <option value="$PROJECT_DIR$/webchat_conpon/static/css/style.css" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/news.html" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/detail.html" />
         <option value="$PROJECT_DIR$/core/tb/selectionbibrarylist.py" />
@@ -254,10 +241,15 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/core/tb/test1.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/index.html" />
-        <option value="$PROJECT_DIR$/webchat_conpon/templates/list.html" />
-        <option value="$PROJECT_DIR$/core/viewshop/shoplist.py" />
         <option value="$PROJECT_DIR$/core/tb/tb_search_shop_2018.py" />
         <option value="$PROJECT_DIR$/core/tb/tb_search_shop.py" />
+        <option value="$PROJECT_DIR$/webchat_conpon/views.py" />
+        <option value="$PROJECT_DIR$/webchat_conpon/templates/error.html" />
+        <option value="$PROJECT_DIR$/webchat/urls.py" />
+        <option value="$PROJECT_DIR$/webchat_conpon/models.py" />
+        <option value="$PROJECT_DIR$/core/viewshop/shoplist.py" />
+        <option value="$PROJECT_DIR$/webchat_conpon/static/css/style.css" />
+        <option value="$PROJECT_DIR$/webchat_conpon/templates/list.html" />
         <option value="$PROJECT_DIR$/webchat/settings.py" />
       </list>
     </option>
@@ -269,8 +261,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="428" />
+    <option name="y" value="98" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -282,7 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +296,6 @@
               <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
               <item name="webchat" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tb_sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,12 +303,6 @@
               <item name="webchat" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="viewshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="wx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
@@ -337,17 +316,31 @@
             </path>
             <path>
               <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="webchat_conpon" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="webchat_conpon" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webchat" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tb_shop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
@@ -376,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tb_search_shop">
+  <component name="RunManager" selected="Python.shoplist">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="webchat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -394,6 +387,44 @@
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webchat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webchat_conpon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webchat_conpon/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="shoplist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webchat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/viewshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/viewshop/shoplist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="tb_search_shop (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -453,44 +484,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="webchat" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="webchat" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/tb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/tb/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python">
       <module name="webchat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -539,17 +532,17 @@
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.tb_search_shop (1)" />
       <item itemvalue="Python.tb_search_shop_2018" />
-      <item itemvalue="Python.test1" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.tb_search_shop" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.shoplist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shoplist" />
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.tb_search_shop" />
         <item itemvalue="Python.tb_search_shop_2018" />
         <item itemvalue="Python.tb_search_shop (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542362380740</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="shop_search">
+      <created>1542588875868</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542588875868</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -718,22 +718,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143266" side_tool="true" weight="0.38235295" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44329897" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49856734" weight="0.3024055" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28151864" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44257703" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49856734" visible="true" weight="0.30112046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2858166" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36254296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36134455" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
@@ -758,16 +757,12 @@
     <MESSAGE value="tbk" />
     <MESSAGE value="tk_conpon" />
     <MESSAGE value="web html" />
-    <option name="LAST_COMMIT_MESSAGE" value="web html" />
+    <MESSAGE value="shop_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="shop_search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/webchat_conpon/models.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/core/tb/test1.py</url>
           <line>4</line>
@@ -842,341 +837,6 @@
           <url>file://$PROJECT_DIR$/core/util/dbutil.py</url>
           <line>78</line>
           <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>297</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>295</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>296</line>
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>294</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>292</line>
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>293</line>
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>289</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>290</line>
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>288</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>286</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>287</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>285</line>
-          <option name="timeStamp" value="158" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>284</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>283</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>280</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>276</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>277</line>
-          <option name="timeStamp" value="164" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>279</line>
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>278</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>274</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>272</line>
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>270</line>
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>268</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>265</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>267</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>263</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>264</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>262</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>261</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>258</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>256</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>253</line>
-          <option name="timeStamp" value="179" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>255</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>252</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>250</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>248</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>247</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>245</line>
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>243</line>
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>242</line>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>244</line>
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>246</line>
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>241</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>238</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>239</line>
-          <option name="timeStamp" value="192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>236</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>237</line>
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>235</line>
-          <option name="timeStamp" value="195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>233</line>
-          <option name="timeStamp" value="196" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>234</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>232</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>231</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>230</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>228</line>
-          <option name="timeStamp" value="201" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>226</line>
-          <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>229</line>
-          <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>227</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="205" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>225</line>
-          <option name="timeStamp" value="206" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>223</line>
-          <option name="timeStamp" value="207" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>222</line>
-          <option name="timeStamp" value="208" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>221</line>
-          <option name="timeStamp" value="209" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>220</line>
-          <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>216</line>
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>202</line>
-          <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>201</line>
-          <option name="timeStamp" value="213" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py</url>
-          <line>195</line>
-          <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py</url>
@@ -1438,28 +1098,156 @@
           <line>4</line>
           <option name="timeStamp" value="275" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/viewshop/shoplist.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="276" />
+      <option name="time" value="308" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/viewshop/shop_sel_lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#69#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1603,13 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/util/tb_db_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/rest/TbkTpwdCreateRequest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1621,27 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webchat/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
@@ -1692,33 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#70#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5200">
-          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
-          <folding>
-            <element signature="e#143#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/selectionbibrary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1746,13 +1479,50 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/db/migrations/questioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_2018.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#70#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/util/tb_db_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#70#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#100#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2440">
+        <state relative-caret-position="409">
           <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1767,74 +1537,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/viewshop/shop_sel_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="269">
+          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="65" />
           <folding>
             <element signature="e#69#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="67" selection-start-line="67" selection-end-line="82" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_2018.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="43" />
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding>
-            <element signature="e#70#96#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
+    <entry file="file://$PROJECT_DIR$/core/tb_sdk/top/api/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="-128">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
           <folding>
-            <element signature="e#70#96#0" expanded="true" />
+            <element signature="e#143#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#70#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop_wl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="50" column="31" selection-start-line="50" selection-end-line="51" />
+        <state relative-caret-position="75">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/tb/tb_search_shop.py">
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="329">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tb/tb_change_tbkey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#100#126#0" expanded="true" />
+            <element signature="e#70#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#69#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="240" column="11" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="43" selection-start-line="43" selection-end-line="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webchat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="208">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>

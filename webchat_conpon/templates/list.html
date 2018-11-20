@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>55社区 </title>
+		<title>商品 </title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -33,12 +33,18 @@
 	    	<li><a href="">新品</a></li>
 	    </ul>
 	    <ul class="list-pro">
+			{% for shop in shoplist %}
 	    	<li>
-	    		<a href="detail.html"><img src=" ../static/images/test10.png" class="list-pic" /></a>
+	    		<a href="detail.html"><img src={{ shop.shop_master_map_url }} class="list-pic" /></a>
 	    		<div class="shop-list-mid" style="width: 65%;">
-                	<div class="tit"><a href="detail.html">法国加力果12个装 进口新鲜水果 嘎啦苹果 包邮</a></div>
-                	<div class="am-gallery-desc">￥52</div>
-                	<p>销量：5件</p>
+                	<div class="text_chang"><a href="detail.html">{{ shop.commodity_name }}</a></div>
+                	<div class=""></div>
+					<table>
+						<tr>
+							<td class="am-gallery-desc">价格{{ shop.shop_price }}</td>
+							<td>销量{{ shop.shop_volume }}</td>
+						</tr>
+					</table>
                 </div>
                 <div class="list-cart">
 	                <div class="d-stock ">
@@ -49,48 +55,9 @@
                 </div>
                 <!--<a href="" class="list-cart"><img src="../static/images/cart.png" width="30"/></a>-->
 	    	</li>
-	    	<li>
-	    		<a href="detail.html"><img src=" ../static/images/test10.png" class="list-pic" /></a>
-	    		<div class="shop-list-mid" style="width: 65%;">
-                	<div class="tit"><a href="detail.html">法国加力果12个装 进口新鲜水果 嘎啦苹果 包邮</a></div>
-                	<div class="am-gallery-desc">￥52</div>
-                	<p>销量：5件</p>
-                </div>
-                <div class="list-cart">
-                <div class="d-stock ">
-		                <a class="decrease">-</a>
-		                <input id="num" readonly="" class="text_box" name="" type="text" value="0">
-		                <a class="increase">+</a>
-                </div>
-                </div>
-                <!--<a href="" class="list-cart"><img src="../static/images/cart.png" width="30"/></a>-->
-	    	</li>
-	    	<!--<li>-->
-	    		<!--<a href="detail.html"><img src=" ../static/images/test10.png" class="list-pic" /></a>-->
-	    		<!--<div class="shop-list-mid" style="width: 65%;">-->
-                	<!--<div class="tit"><a href="detail.html">法国加力果12个装 进口新鲜水果 嘎啦苹果 包邮</a></div>-->
-                	<!--<div class="am-gallery-desc">￥52</div>-->
-                	<!--<p>销量：5件</p>-->
-                <!--</div>-->
-                <!--<div class="list-cart">-->
-                <!--<div class="d-stock ">-->
-		                <!--<a class="decrease">-</a>-->
-		                <!--<input id="num" readonly="" class="text_box" name="" type="text" value="0">-->
-		                <!--<a class="increase">+</a>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--&lt;!&ndash;<a href="" class="list-cart"><img src="../static/images/cart.png" width="30"/></a>&ndash;&gt;-->
-	    	<!--</li>-->
-	    	
+			{% endfor %}
 	    </ul>
-	   <!--<div class="fix-bot">-->
-	   	  <!--<div class="fix-bot-cart"><i>8</i></div>-->
-	   	  <!--<a href="tureorder.html" class="list-js">去结算</a>-->
-	   	  <!--<div class="js-text">-->
-            	<!--<p><b>￥217.80</b></p>-->
-            	<!--<p class="js-car">购物满50元免运费</p>-->
-          <!--</div>-->
-	   <!--</div>-->
+
 
 <script src="../static/js/jquery.min.js"></script>
 <script src="../static/js/amazeui.min.js"></script>
