@@ -54,3 +54,4 @@ class t_tb_shop(models.Model):
     coupon_end_time = models.CharField(max_length=50,null=True)
     coupon_url = models.CharField(max_length=500,null=True)
     coupon_extension = models.CharField(max_length=500,null=True)
+    pw_conversion = models.CharField(max_length=50,null=True)

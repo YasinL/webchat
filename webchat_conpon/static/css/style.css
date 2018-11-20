@@ -997,13 +997,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endC
     position: relative;
     border-bottom: 1px solid #ddd;
     margin: 0px 1%;
-    padding: 5px 0;
+    padding: 1px 0;
     overflow: hidden;
 }
 
 .list-pic {
     float: left;
     width: 30%;
+    padding: 3px;
+    /*border: 1px solid #ddd;*/
+}
+
+.list-pic_right_map {
+    float: left;
+    width: 80%;
     padding: 3px;
     /*border: 1px solid #ddd;*/
 }

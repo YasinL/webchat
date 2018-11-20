@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^$', views.weixin_main, name='weixin_main'),
     url(r'^index$', views.index, name='index'),
     url(r'^shopapi', views.shopapi, name='shopapi'),
+    url(r'^loadmore', views.loadmore, name='loadmore'),
     url(r'^static/(?P<path>.*)$', static.serve, {'document_root': settings.STATIC_ROOT }),
 ]
