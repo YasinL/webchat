@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25052fba-cb99-4a15-a968-84dba3d36913" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/webchat_conpon/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/viewshop/shoplist.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/viewshop/shoplist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/py_webchat.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/py_webchat.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webchat_conpon/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat_conpon/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webchat_conpon/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/webchat_conpon/templates/list.html" afterDir="false" />
     </list>
@@ -30,7 +27,7 @@
     <SUITE FILE_PATH="coverage/webchat$tb_search_shop.coverage" NAME="tb_search_shop Coverage Results" MODIFIED="1542548664546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$selectionbibrarylist.coverage" NAME="selectionbibrarylist Coverage Results" MODIFIED="1542452866237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$views.coverage" NAME="views Coverage Results" MODIFIED="1542070369641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webchat_conpon" />
-    <SUITE FILE_PATH="coverage/webchat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542681555125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webchat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542703629866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webchat$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1542455642447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$tb_change_tbkey.coverage" NAME="tb_change_tbkey Coverage Results" MODIFIED="1542189828494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/tb" />
     <SUITE FILE_PATH="coverage/webchat$Log.coverage" NAME="Log Coverage Results" MODIFIED="1542091156139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
@@ -67,8 +64,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webchat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+            <state relative-caret-position="-72">
+              <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -85,10 +82,22 @@
       <file leaf-file-name="shoplist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="235">
+              <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
               <folding>
                 <element signature="e#69#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbutil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="e#70#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,14 +116,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="163">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webchat_conpon/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="2546" column="16" lean-forward="true" selection-start-line="2546" selection-start-column="16" selection-end-line="2546" selection-end-column="16" />
+            <state relative-caret-position="260">
+              <caret line="1021" column="23" lean-forward="true" selection-start-line="1021" selection-start-column="23" selection-end-line="1021" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -177,6 +185,9 @@
       <find>volume</find>
       <find>dit</find>
       <find>tit</find>
+      <find>li</find>
+      <find>0px 3%</find>
+      <find>.list-pic</find>
     </findStrings>
     <replaceStrings>
       <replace>core.tb_sdk.top.api</replace>
@@ -239,14 +250,14 @@
         <option value="$PROJECT_DIR$/core/tb/tb_search_shop.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/views.py" />
         <option value="$PROJECT_DIR$/webchat/urls.py" />
-        <option value="$PROJECT_DIR$/webchat/settings.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/error.html" />
-        <option value="$PROJECT_DIR$/core/viewshop/shoplist.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/models.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/test.html" />
         <option value="$PROJECT_DIR$/logs/py_webchat.log" />
-        <option value="$PROJECT_DIR$/webchat_conpon/static/css/style.css" />
+        <option value="$PROJECT_DIR$/webchat/settings.py" />
+        <option value="$PROJECT_DIR$/core/viewshop/shoplist.py" />
         <option value="$PROJECT_DIR$/webchat_conpon/templates/list.html" />
+        <option value="$PROJECT_DIR$/webchat_conpon/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -347,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shoplist">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="webchat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -717,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542684553648</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="shop">
+      <created>1542703591294</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1542703591294</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1563,13 +1581,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
+    <entry file="file://D:/Python/Python36/Lib/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#70#83#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/py_webchat.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webchat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1590,17 +1622,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python36/Lib/wsgiref/simple_server.py">
+    <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="235">
+          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+          <folding>
+            <element signature="e#69#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webchat/settings.py">
+    <entry file="file://$PROJECT_DIR$/core/util/dbutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#70#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1615,22 +1653,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/models.py">
+    <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/py_webchat.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/viewshop/shoplist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="163">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <element signature="e#69#92#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1650,25 +1684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webchat_conpon/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="2546" column="16" lean-forward="true" selection-start-line="2546" selection-start-column="16" selection-end-line="2546" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webchat_conpon/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="1021" column="23" lean-forward="true" selection-start-line="1021" selection-start-column="23" selection-end-line="1021" selection-end-column="23" />
         </state>
       </provider>
     </entry>

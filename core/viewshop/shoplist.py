@@ -16,8 +16,8 @@ def shoplistapi(keyword_id):
     shoplists = []
     if keyword_id == "nvz1001":
         try:
-            shopdblists = t_tb_shop.objects.filter(shop_category__contains="女装").values()
-            for shoplist in  shopdblists:
+            shopdblists = t_tb_shop.objects.filter(shop_category__contains="女装").values()[1:20]
+            for shoplist in shopdblists:
                 shoplists.append(shoplist)
 
         except BaseException as e:
@@ -53,7 +53,7 @@ def  shopapi(request):
             return  render(request,"error.html",{'shoplist':shoplist})
 
         else:
-            return render(request, "list.html", {'shoplist': shoplist[0:10]})
+            return render(request, "list.html", {'shoplist': shoplist})
 
 
 
