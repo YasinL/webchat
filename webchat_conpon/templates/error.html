@@ -12,7 +12,6 @@
         <link rel="icon" type="image/png" href="../static/images/favicon.png">
 		<link href="../static/css/amazeui.min.css" rel="stylesheet" type="text/css" />
 		<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
-		<script src="../static/js/jquery-1.10.2.min.js"></script>
 	</head>
 	<body>
 		<header data-am-widget="header" class="am-header am-header-default sq-head ">
@@ -25,10 +24,11 @@
   	            <a href="" class="">error</a>
             </h1>
 	    </header>
-	    <div style="height: 49px"></div>
+	    <div style="height: 100px; margin: auto"></div>
 
 	    <ul style="text-align: center;color: #5a5959">
 	    	<li>
+
                 {% if shoplist %}
 				<p>{{ shoplist }}</p>
                 {% endif %}
@@ -38,8 +38,7 @@
 
 	    </ul>
 
-<script src="../static/js/jquery.min.js"></script>
-<script src="../static/js/amazeui.min.js"></script>
+
 
 
 	</body>
