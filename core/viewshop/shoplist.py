@@ -49,6 +49,7 @@ def  shopapi(request):
         keyword_id = request.GET.get('keyword_id')
         shoplist = shoplistapi(keyword_id)
         if shoplist == 0:
+            shoplist = "服务器升级中…… 请稍后再试。"
             return  render(request,"error.html",{'shoplist':shoplist})
 
         else:

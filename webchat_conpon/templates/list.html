@@ -41,18 +41,27 @@
                 	<div class=""></div>
 					<table>
 						<tr>
-							<td class="am-gallery-desc">价格{{ shop.shop_price }}</td>
-							<td>销量{{ shop.shop_volume }}</td>
+							<td class="text_yangshi" style="text-decoration: line-through;">原价 ￥{{ shop.shop_price }}</td>
+							<td class="text_yangshi" style="width: 50%;text-align: right">销量 {{ shop.shop_volume }}</td>
 						</tr>
+						<tr><td class="text_yangshi">券后价￥10</td></tr>
 					</table>
+					<div>
+						<div style="width: 55px;height: 18px;background:rgb(246, 90, 16);line-height:18px;color: #fff;display: inline-block;text-align: center">
+							<span style="margin-left: -6px;font-size: 10px">券{{ shop.coupon_denomination_value }}元</span>
+						</div>
+						<span style="border-right:1px dashed #fff;position: relative;left: -14px;"></span>
+						<div style="width: 10px;height: 10px;border-radius: 50%;background: #fff;display: inline-block;margin-left: -10px;position: relative;">
+						</div>
+					</div>
                 </div>
-                <div class="list-cart">
-	                <div class="d-stock ">
-			                <a class="decrease">-</a>
-			                <input id="num" readonly="" class="text_box" name="" type="text" value="0">
-			                <a class="increase">+</a>
-	                </div>
-                </div>
+                <!--<div class="list-cart">-->
+	                <!--<div class="d-stock ">-->
+			                <!--<a class="decrease">-</a>-->
+			                <!--<input id="num" readonly="" class="text_box" name="" type="text" value="0">-->
+			                <!--<a class="increase">+</a>-->
+	                <!--</div>-->
+                <!--</div>-->
                 <!--<a href="" class="list-cart"><img src="../static/images/cart.png" width="30"/></a>-->
 	    	</li>
 			{% endfor %}

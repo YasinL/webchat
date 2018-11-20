@@ -49,6 +49,7 @@ class t_tb_shop(models.Model):
     coupon_count = models.CharField(max_length=50,null=True)
     coupon_surplus = models.CharField(max_length=50,null=True)
     coupon_denomination = models.CharField(max_length=50,null=True)
+    coupon_denomination_value = models.CharField(max_length=50,null=True)
     coupon_start_time = models.CharField(max_length=50,null=True)
     coupon_end_time = models.CharField(max_length=50,null=True)
     coupon_url = models.CharField(max_length=500,null=True)
