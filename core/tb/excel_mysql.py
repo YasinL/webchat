@@ -9,6 +9,7 @@ from  core.util.tb_pw_conversion_util import pw_conversion
 
 
 
+db = pymysql.connect(host="", user="webchat", db="", password="@@", port=,charset='utf8')
 # 打开数据库连接
 
 # 使用 cursor() 方法创建一个游标对象 cursor

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);//search,查询？后面的参数，并匹配正则
+     if(r!=null)return  unescape(r[2]); return null;
+}
+
+window.onload=function() {
+    //--------------上拉加载更多---------------
+    //获取滚动条当前的位置
+    function getScrollTop() {
+        var scrollTop = 0;
+        if (document.documentElement && document.documentElement.scrollTop) {
+            scrollTop = document.documentElement.scrollTop;
+        } else if (document.body) {
+            scrollTop = document.body.scrollTop;
+        }
+        return scrollTop;
+    }
+
+
+    //获取当前可视范围的高度
+    function getClientHeight() {
+        var clientHeight = 0;
+        if (document.body.clientHeight && document.documentElement.clientHeight) {
+            clientHeight = Math.min(document.body.clientHeight, document.documentElement.clientHeight);
+        } else {
+            clientHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight);
+        }
+        return clientHeight;
+    }
+
+    //获取文档完整的高度
+    function getScrollHeight() {
+        return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    }
+
+    // alert(getScrollTop());
+    // alert(getClientHeight());
+    // alert(getScrollHeight());
+    //滚动事件触发
+    window.onscroll = function () {
+        if (parseInt(getScrollTop() + 1) + getClientHeight() >= getScrollHeight()) {
+
+            // console.log(urlhost);
+            // alert(requestapi());
+            // requestapi();
+            test();
+            // alert(urlhost);
+            // requestapi();
+            // document.getElementById("link").click();
+        }
+
+    }
+
+};
+
+
+function test() {
+    urlpage = parseInt(GetQueryString("page")) + 1;
+    var host = window.location.host;
+    urlhost = 'http://' + host + '/loadmore?page=' + urlpage;
+    // alert(urlhost);
+    $.ajax({
+        type: "GET",
+        url: urlhost,
+        datatype: "json",
+        data: "",
+        success: function (shop) {
+            // alert(shop.length);
+            // data = JSON.parse(shop);
+            for (var i=0;i<shop.length;i++){
+                $("#incomeNum").append('<p>test'+shop[i].commodity_name+'</p>');
+            }
+            // alert(shop[0].commodity_name);
+            // $("#incomeNum").append('<p>interval:'+shop.commodity_name+'</p>');
+        },
+        error:function () {
+            alert("error")
+        }
+    })
+
+}
+
+
+function requestapi() {
+    $.ajax({
+        type: "GET",
+        url: urlhost,
+        datatype: "json",
+        data: "",
+        success: function (data) {
+            if (data.list.length = 20) {
+                htmltxt += '<div class=\"text_chang\"><a href=\"detail.html\">' + data.commodity_name + '</a></div>'
+                $("#incomeNum").append(htmltxt);
+            }
+            else {
+                htmltxt += '<div class=\"text_chang\"><a href=\"#\">' + "not " + '</a></div>'
+
+            }
+        },
+        error: function () {
+            htmltxt += '<div class=\"text_chang\"><a href=\"#\">' + "error " + '</a></div>'
+
+        }
+
+
+    });
+}
+
+        //-----------------结束--------------------
+
+</script>
+</head>
+<body>
+{% for contact in contacts %}
+    {# Each "contact" is a Contact model object. #}
+    {{ contact.full_name|upper }}<br />
+        <li class="box bloglist" id="shop">
+            <div class="text_chang"><a href="detail.html"><h4>{{ contact.commodity_name }}</h4></a></div>
+        </li>
+{% endfor %}
+
+    <dl id="incomeNum">
+
+    </dl>
+
+<div class="pagination">
+    <!--<span class="step-links">-->
+        <!--{% if contacts.has_previous %}-->
+            <!--<a href="?page={{ contacts.previous_page_number }}">previous</a>-->
+        <!--{% endif %}-->
+
+
+
+        <!--{% if contacts.has_next %}-->
+            <!--<a id="link" href="?page={{ contacts.next_page_number }}"></a>-->
+        <!--{% endif %}-->
+    <!--</span>-->
+</div>
+
+
+</body>
+</html>
