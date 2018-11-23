@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+		<meta content="nvz1001">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>商品 </title>
+		<title>女装</title>
         <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="keywords" content="nvz1001">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="renderer" content="webkit">
         <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -34,23 +36,22 @@
 	    	<li><a href="">新品</a></li>
 	    </ul>
 		<section id="id_list">
-	    <ul class="list-pro" id="incomeNum">
-			{% for shop in shoplist %}
+	    <ul class="list-pro" id="shoplist">
 	    	<li>
-	    		<a href="detail.html"><img src={{ shop.shop_master_map_url }} class="list-pic" /></a>
+	    		<a  id="master_map_url" href="detail.html"></a>
 	    		<div class="shop-list-mid">
-                	<div class="text_chang"><a href="detail.html">{{ shop.commodity_name }}</a></div>
+                	<div id="commodity_name" class="text_chang"></div>
                 	<div class=""></div>
 					<table>
 						<tr>
-							<td class="text_yangshi" style="text-decoration: line-through;">原价 ￥{{ shop.shop_price }}</td>
-							<td class="text_yangshi" style="width: 50%;text-align: right">销量 {{ shop.shop_volume }}</td>
+							<td class="text_yangshi" style="text-decoration: line-through;" id="shop_price"></td>
+							<td class="text_yangshi" style="width: 50%;text-align: right" id="shop_volume"></td>
 						</tr>
-						<tr><td class="text_yangshi">券后价￥10</td></tr>
+						<tr><td class="text_yangshi" id="quanhoujia">券后价￥10</td></tr>
 					</table>
 					<div>
 						<div style="width: 55px;height: 18px;background:rgb(246, 90, 16);line-height:18px;color: #fff;display: inline-block;text-align: center">
-							<span style="margin-left: -6px;font-size: 10px">券{{ shop.coupon_denomination_value }}元</span>
+							<span style="margin-left: -6px;font-size: 10px" id="coupon_denomination_value"></span>
 						</div>
 						<span style="border-right:1px dashed #fff;position: relative;left: -14px;"></span>
 						<div style="width: 10px;height: 10px;border-radius: 50%;background: #fff;display: inline-block;margin-left: -10px;position: relative;">
@@ -69,10 +70,8 @@
                 </div>
                 <!--<a href="" class="list-cart"><img src="../static/images/cart.png" width="30"/></a>-->
 	    	</li>
-			{% endfor %}
 
 	    </ul>
-			<p id="jiazai"style="text-align: center;font-size: 16px;text-decoration-color:#ffffff"></p>
 		</section>
 
 

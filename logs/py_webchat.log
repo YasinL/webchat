@@ -629,3 +629,781 @@ Traceback (most recent call last):
     raise exc
 django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '118.89.18.234' (timed out)")
 [2018-11-21 15:14:01,353 ERROR 38048 dbutil.py 65] - settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2018-11-23 10:36:42,262 WARNING 64644 base.py 152] - Not Found: /webchat_conpon
+[2018-11-23 11:16:08,537 ERROR 60500 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: pagetest() takes 0 positional arguments but 1 was given
+[2018-11-23 11:16:09,960 ERROR 60500 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: pagetest() takes 0 positional arguments but 1 was given
+[2018-11-23 11:16:13,288 ERROR 60500 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: pagetest() takes 0 positional arguments but 1 was given
+[2018-11-23 11:16:55,703 ERROR 63800 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: pagetest() takes 0 positional arguments but 1 was given
+[2018-11-23 11:17:25,671 ERROR 37836 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\middleware\clickjacking.py", line 32, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[2018-11-23 11:17:29,449 ERROR 37836 exception.py 135] - Internal Server Error: /pagetest
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\middleware\clickjacking.py", line 32, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[2018-11-23 14:31:12,052 ERROR 47900 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 64, in shopapi
+    shoplist = shoplistapi(keyword_id,page)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 56, in shoplistapi
+    return HttpResponse(json_data.fields, content_type='application/json; charset=utf-8')
+AttributeError: 'str' object has no attribute 'fields'
+[2018-11-23 14:31:12,992 ERROR 47900 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 64, in shopapi
+    shoplist = shoplistapi(keyword_id,page)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 56, in shoplistapi
+    return HttpResponse(json_data.fields, content_type='application/json; charset=utf-8')
+AttributeError: 'str' object has no attribute 'fields'
+[2018-11-23 14:33:38,150 WARNING 68444 base.py 152] - Not Found: /pagetest
+[2018-11-23 14:33:47,062 ERROR 68444 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 72, in shopapi
+    shoplist = shoplistapi(keyword_id,page)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 34, in shoplistapi
+    shoplists.append(shop.get("fields"))
+AttributeError: 'str' object has no attribute 'get'
+[2018-11-23 14:33:49,699 ERROR 68444 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 72, in shopapi
+    shoplist = shoplistapi(keyword_id,page)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 34, in shoplistapi
+    shoplists.append(shop.get("fields"))
+AttributeError: 'str' object has no attribute 'get'
+[2018-11-23 14:34:31,700 ERROR 65428 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 72, in shopapi
+    shoplist = shoplistapi(keyword_id,page)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 34, in shoplistapi
+    shoplists.append(shop.fields)
+AttributeError: 'str' object has no attribute 'fields'
+[2018-11-23 15:46:08,177 WARNING 66860 base.py 152] - Not Found: /favicon.ico
+[2018-11-23 16:06:32,934 ERROR 64424 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\webchat_conpon\views.py", line 51, in pagecount
+    return HttpResponse(json.dumps(pagecount, ensure_ascii=False), content_type="application/json")
+UnboundLocalError: local variable 'pagecount' referenced before assignment
+[2018-11-23 16:06:46,046 ERROR 64424 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\webchat_conpon\views.py", line 51, in pagecount
+    return HttpResponse(json.dumps(pagecount, ensure_ascii=False), content_type="application/json")
+UnboundLocalError: local variable 'pagecount' referenced before assignment
+[2018-11-23 16:16:59,160 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,185 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,206 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,210 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,212 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,369 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,380 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,433 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,450 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,497 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,503 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,523 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,534 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,545 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,559 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,631 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,654 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,668 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,695 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,716 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,724 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,760 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,766 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,784 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,808 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,822 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,836 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,857 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,859 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,899 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,947 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,958 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:16:59,967 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,030 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,042 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,079 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,097 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,108 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,118 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,152 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,195 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,239 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,276 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,279 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,313 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,345 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,351 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,387 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,408 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,419 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,450 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,465 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,492 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,512 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,531 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,545 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,555 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,601 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,611 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,625 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,646 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,663 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,721 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,745 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,752 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,760 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,817 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:17:00,831 ERROR 66920 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view core.viewshop.shoplist.shopapi didn't return an HttpResponse object. It returned None instead.
+[2018-11-23 16:26:36,592 ERROR 62932 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\middleware\clickjacking.py", line 32, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[2018-11-23 16:26:39,096 ERROR 62932 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\middleware\clickjacking.py", line 32, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[2018-11-23 16:26:57,672 ERROR 62932 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\middleware\clickjacking.py", line 32, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[2018-11-23 16:27:02,858 WARNING 64280 base.py 152] - Not Found: /favicon.ico
+[2018-11-23 16:33:12,049 ERROR 64280 exception.py 135] - Internal Server Error: /shopapi
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\connections.py", line 916, in connect
+    **kwargs)
+  File "D:\Python\Python36\lib\socket.py", line 722, in create_connection
+    raise err
+  File "D:\Python\Python36\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 213, in ensure_connection
+    self.connect()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\connections.py", line 706, in __init__
+    self.connect()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\connections.py", line 963, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '118.89.18.234' (timed out)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\core\viewshop\shoplist.py", line 25, in shopapi
+    paginator = Paginator(contact_list, 20)  # Show 20 contacts per page
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\paginator.py", line 31, in __init__
+    self._check_object_list_is_ordered()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\paginator.py", line 111, in _check_object_list_is_ordered
+    'object_list: {!r}'.format(self.object_list),
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 226, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 250, in __iter__
+    self._fetch_all()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 1103, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\compiler.py", line 863, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\compiler.py", line 420, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\sql\compiler.py", line 373, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\lookups.py", line 169, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\lookups.py", line 162, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\models\fields\__init__.py", line 640, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "D:\Python\Python36\lib\contextlib.py", line 82, in __enter__
+    return next(self.gen)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 254, in cursor
+    return self._cursor()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 213, in ensure_connection
+    self.connect()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 213, in ensure_connection
+    self.connect()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\base\base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\db\backends\mysql\base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\connections.py", line 706, in __init__
+    self.connect()
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\pymysql\connections.py", line 963, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '118.89.18.234' (timed out)")
+[2018-11-23 16:37:41,166 WARNING 64280 base.py 152] - Not Found: /favicon.ico
+[2018-11-23 17:39:05,307 WARNING 69564 base.py 152] - Not Found: /reserve.html
+[2018-11-23 17:48:32,947 WARNING 69564 base.py 152] - Not Found: /reserve.html
+[2018-11-23 17:48:41,297 ERROR 69564 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\webchat_conpon\views.py", line 54, in pagecount
+    return HttpResponse(pagecount)
+UnboundLocalError: local variable 'pagecount' referenced before assignment
+[2018-11-23 17:48:55,210 ERROR 69564 exception.py 135] - Internal Server Error: /pagecount
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python36\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\admin\Desktop\python\webchat\webchat_conpon\views.py", line 54, in pagecount
+    return HttpResponse(pagecount)
+UnboundLocalError: local variable 'pagecount' referenced before assignment

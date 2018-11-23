@@ -6,7 +6,7 @@ from  webchat_conpon.models import t_test
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render,render_to_response,HttpResponse,HttpResponseRedirect
 import json
-
+from django.core import serializers
 
 
 
@@ -25,12 +25,33 @@ import json
 #
 #         return render(request, template, context)
 
-def loadmoretest():
-    contact_count = t_test.objects.all().count()
-    pagecount= contact_count/10
-    pagecount = round(pagecount)
+def pagecount(request):
+    pagecounts = []
+    classify = request.GET.get('classify')
+    if classify == "nvz1001":
+        try:
+            contact_count = t_tb_shop.objects.filter(shop_category__contains="女装").count()
+            print(contact_count)
+            pagecount= contact_count/20
+            pagecount = round(pagecount)
+        except BaseException as e:
+            print(e)
+            pagecount = 1
+    elif classify == "nanz1001":
+        try:
+            contact_count = t_tb_shop.objects.filter(shop_category__contains="男装").count()
+            pagecount= contact_count/20
+            pagecount = round(pagecount)
 
-    return pagecount
+        except BaseException as e:
+            print(e)
+            pagecount = 1
+
+
+
+
+
+    return HttpResponse(pagecount)
 
 
 def loadmore(request):
@@ -59,5 +80,27 @@ def loadmore(request):
         return HttpResponse(json.dumps(shoplists, ensure_ascii=False), content_type="application/json")
 
 
+
+def test(page):
+    contact_list = t_tb_shop.objects.filter(shop_category__contains="女装").all().order_by()
+    paginator = Paginator(contact_list, 20)  # Show 20 contacts per page
+    shoplists =[]
+    try:
+        contacts = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        contacts = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        contacts = paginator.page(paginator.num_pages)
+    json_data = serializers.serialize("json", contacts, ensure_ascii=False)
+    return HttpResponse(json_data, content_type='application/json; charset=utf-8')
+
+    # for shop in  contacts:
+    #     test = dict(commodity_name=shop.commodity_name)
+    #     shoplists.append(test)
+
+
+
 if __name__ == '__main__':
-    print(loadmoretest())
+    print(test(2))

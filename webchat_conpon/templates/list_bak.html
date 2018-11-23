@@ -13,7 +13,6 @@
 		<link href="../static/css/amazeui.min.css" rel="stylesheet" type="text/css" />
 		<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
 		<script src="../static/js/jquery-1.10.2.min.js"></script>
-		<script src="../static/js/shop_list.js"></script>
 	</head>
 	<body>
 		<header data-am-widget="header" class="am-header am-header-default sq-head ">
@@ -34,7 +33,7 @@
 	    	<li><a href="">新品</a></li>
 	    </ul>
 		<section id="id_list">
-	    <ul class="list-pro" id="incomeNum">
+	    <ul class="list-pro">
 			{% for shop in shoplist %}
 	    	<li>
 	    		<a href="detail.html"><img src={{ shop.shop_master_map_url }} class="list-pic" /></a>
@@ -72,7 +71,6 @@
 			{% endfor %}
 
 	    </ul>
-			<p id="jiazai"style="text-align: center;font-size: 16px;text-decoration-color:#ffffff"></p>
 		</section>
 
 

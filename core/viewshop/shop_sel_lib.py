@@ -17,3 +17,5 @@ def shop_sel_lib_list(request):
         return render(request,"index.html",{'shoplist':shoplist})
 
 
+
+

@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^index$', views.index, name='index'),
     url(r'^shopapi', views.shopapi, name='shopapi'),
     url(r'^loadmore', views.loadmore, name='loadmore'),
+    url(r'^pagecount', views.pagecount, name='pagecount'),
     url(r'^static/(?P<path>.*)$', static.serve, {'document_root': settings.STATIC_ROOT }),
 ]
